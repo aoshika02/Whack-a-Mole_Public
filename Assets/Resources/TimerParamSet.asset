@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d413350731ed403448179419910021f1, type: 3}
+  m_Name: TimerParamSet
+  m_EditorClassIdentifier: 
+  TimerParams:
+  - CallTime: 0
+    MoveDuration: 4
+    WaitDuration: 0.75
+    SpawnInterval: 3
+  - CallTime: 30
+    MoveDuration: 3
+    WaitDuration: 0.75
+    SpawnInterval: 1.5
+  - CallTime: 60
+    MoveDuration: 2
+    WaitDuration: 0.5
+    SpawnInterval: 0.8
+  - CallTime: 90
+    MoveDuration: 1.5
+    WaitDuration: 0.25
+    SpawnInterval: 0.4

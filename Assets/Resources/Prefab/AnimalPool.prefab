@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5753825331648117129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5553315918675205521}
+  - component: {fileID: 4683348862255508125}
+  m_Layer: 0
+  m_Name: AnimalPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5553315918675205521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753825331648117129}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4683348862255508125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753825331648117129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5e64c2c7b07c741884859d5aecef31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animalPoolDatas:
+  - AnimalPrefab: {fileID: 6813247819967337272, guid: 40ba898aedefc984989155601564cb27,
+      type: 3}
+    AnimalType: 1
+  - AnimalPrefab: {fileID: 982860129658099766, guid: 43cde8337b452bb4ab2ebaca9ba35d1f,
+      type: 3}
+    AnimalType: 2
+  - AnimalPrefab: {fileID: 2951801454732887363, guid: cd1757d07513bc143b8e85514fe47cff,
+      type: 3}
+    AnimalType: 3
