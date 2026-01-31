@@ -30,12 +30,6 @@
 | ---- |
 |[Voxbox - Voxel Game Assets](https://assetstore.unity.com/packages/3d/characters/voxbox-voxel-game-assets-182002?srsltid=AfmBOorw7BIyBgH9IBx_x2eZrsJuAn2CrdOjZPTTff1DdMBXq5O1MSyo)|
 
-### フォント
-|  AssetName  |
-| ---- |
-|[Press_Start_2P](https://fonts.google.com/specimen/Press+Start+2P)|
-
-
 # 命名規則
 |public|private|local|function|
 |:--:|:--:|:--:|:--:|
